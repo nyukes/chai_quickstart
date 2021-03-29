@@ -2,8 +2,13 @@ from chai_py import Metadata, package, upload_and_deploy, wait_for_deployment
 from chai_py import share_bot
 from starter_bot import Bot
 
-DEVELOPER_UID = "developer_unique_id_goes_here"
-DEVELOPER_KEY = "key_goes_here"
+from chai_py.defaults import GUEST_UID, GUEST_KEY
+
+DEVELOPER_UID = None
+DEVELOPER_KEY = None
+
+if DEVELOPER_KEY is None or DEVELOPER_UID is None:
+    raise RuntimeError("Please fetch your UID and KEY from the bottom of the Chai Developer Platform. https://chai.ml/dev")
 
 BOT_IMAGE_URL = "https://cutt.ly/lx0gnM9"
 
