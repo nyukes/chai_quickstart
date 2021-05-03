@@ -1,6 +1,8 @@
 # Quickstart
 
 * To get a quick response, join our [Discord channel](https://discord.com/invite/YfrVwBtYWb).
+* Visit the [Chai Docs](https://chai.ml/docs) for more information.
+
 
 ## Installation
 `pip install chaipy`
