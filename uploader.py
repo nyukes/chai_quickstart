@@ -26,7 +26,7 @@ package(
 )
 
 bot_uid = upload_and_deploy(
-    "package.zip"
+    "_package.zip"
 )
 
 wait_for_deployment(bot_uid)
