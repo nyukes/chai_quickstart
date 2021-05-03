@@ -1,7 +1,6 @@
 # Quickstart
 
 * To get a quick response, join our [Discord channel](https://discord.com/invite/YfrVwBtYWb).
-* You can also email hello@chai.ml.
 
 ## Installation
 `pip install chaipy`
