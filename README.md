@@ -63,7 +63,7 @@ input = ["Hey", "What's up?", "What's your name?"]
 t_room.test.test_chat(input)
 print(t_room.messages)
 for message in t_room.messages:
-	print(message.content)
+    print(message.content)
 ```
 
 ### Packaging
@@ -72,7 +72,7 @@ Next, we’ll package the bot into a zip archive to prepare for upload.
 
 ```python
 from chai_py import Metadata, package
-from chai_py.auth import set_auth
+from chai_py import set_auth
 from starter_bot import Bot
 
 # You'll get these from the chai developer platform: https://chai.ml/dev
