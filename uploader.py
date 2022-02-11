@@ -6,9 +6,8 @@ from starter_bot import Bot
 
 from chai_py.defaults import GUEST_UID, GUEST_KEY
 
-DEVELOPER_UID = None
-DEVELOPER_KEY = None
-
+DEVELOPER_UID = 5em756fvsXXkrSAdIhA9RublyTA2
+DEVELOPER_KEY = BjAKhCIq8iagbVXw02WlUMHzmEnccioCnKf7ahWqD9mDuuz6ogVMG2yXubbOaMjTy-oDpfi4D0Y2JatgsmuPaQ
 if DEVELOPER_KEY is None or DEVELOPER_UID is None:
     raise RuntimeError("Please fetch your UID and KEY from the bottom of the Chai Developer Platform. https://chai.ml/dev")
 
